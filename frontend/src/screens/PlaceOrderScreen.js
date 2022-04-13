@@ -61,7 +61,7 @@ const PlaceOrderScreen = ({ history }) => {
   }
 
   return (
-    <>
+    <React.Fragment>
       <CheckoutSteps step1 step2 step3 step4 />
       <Row>
         <Col md={8}>
@@ -162,7 +162,7 @@ const PlaceOrderScreen = ({ history }) => {
           </Card>
         </Col>
       </Row>
-    </>
+    </React.Fragment>
   )
 }
 
